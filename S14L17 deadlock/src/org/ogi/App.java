@@ -26,7 +26,7 @@ public class App {
 
 			@Override
 			public void run() {
-				// TODO Auto-generated method stub
+				// TODO Auto-generated method stub 
 				synchronized (l2) {
 					System.out.println("Inside t2 lock2");
 					synchronized (l1) {
